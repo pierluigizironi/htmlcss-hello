@@ -2,11 +2,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
-    color: white;
-    font-size: 50px;
 }
 .background {
     background-image: url("earth.jpg");
     height: 100vh;
     position: relative;
+}
+
+.testo {
+    color: white;
+    font-size: 50px;
 }
