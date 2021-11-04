@@ -5,11 +5,17 @@
 }
 .background {
     background-image: url("earth.jpg");
+    background-size: cover;
     height: 100vh;
     position: relative;
+    background-position: center;
 }
 
 .testo {
     color: white;
     font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
